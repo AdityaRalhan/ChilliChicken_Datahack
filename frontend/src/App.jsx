@@ -1,14 +1,18 @@
+import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Hero } from './pages';
+import Hero from './Pages/Hero.jsx'
 
 function App() {
+
   return (
-    <Router>
+    <>
+     <Router>
       <Routes>
         <Route path="/" element={<Hero />} />
       </Routes>
-    </Router>
-  );
+     </Router>
+    </>
+  )
 }
 
-export default App;
+export default App

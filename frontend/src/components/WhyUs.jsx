@@ -1,7 +1,10 @@
+import React from 'react'
 
 const WhyUs = () => {
   return (
-    <div>WhyUs</div>
+    <div>
+      why us
+    </div>
   )
 }
 
